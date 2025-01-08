@@ -27,8 +27,8 @@ Both side’s block (prompt + signature) are hashed. Then encrypted by public ke
 1. Since the files would be repeatedly uploaded/downloaded from mega, the time take for a single conversation can be very long ( > 1min )
 2. third-party.py will show what stage has been processed
 3. third-party.py will store the hashed data from both sides in H_A (from user) and H_B (from ai) folders. User and AI will store its “block” in A_log and B_log folders respectively.
-** 4. User and ai have to share the same public-private key pairs, otherwise it won’t work **
-** 5. type “stop” in the user UI will kill three execution (user, genai and the third-party) all at once. **
+**4. User and ai have to share the same public-private key pairs, otherwise it won’t work**
+**5. type “stop” in the user UI will kill three execution (user, genai and the third-party) all at once.**
 
 
 
