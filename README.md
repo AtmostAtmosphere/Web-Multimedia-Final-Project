@@ -13,11 +13,14 @@ Both side’s block (prompt + signature) are hashed. Then encrypted by public ke
 ## Code Files
 ### Main files
 `user.py`: User run this file on terminal
+
 `genai.py`: Someone run this file to act as Generative AI (implementation of ChatGPT API)
+
 `third_party.py`: Third-party run this file (Encrypt and sign the hashed data)
 
 ### Auxiliary files
 `crypto.py` includes encryption, decryption and key-generating function
+
 `load.py` includes mega-login, upload and download function
 
 ### Others
